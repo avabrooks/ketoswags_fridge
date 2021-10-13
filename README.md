@@ -1,3 +1,6 @@
+# FRïÐGÊ
+Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well. To assist in the designing and creation of the website, we have created a [project plan](https://docs.google.com/document/d/1-Fu02966V36WSjEJmNHyH8fAHgU8KmF9d7niSmq0crw/edit) and [storyboard](https://docs.google.com/presentation/d/17Bie2N05n45lA9Wb8htUu6bARM4VbkqW-E4211it5zY/edit#slide=id.p) which provides visuals and goals for our website. 
+
 ## Week 3 Pop Quiz
 ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), [New Scrumboard](https://github.com/avabrooks/ketoswags_fridge/projects/1) avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 
@@ -61,10 +64,6 @@ ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, a
 | Ava Brooks | avabrooks | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Aavabrooks) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3Aavabrooks) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=avabrooks) | [profile](https://github.com/avabrooks)
 | Crystal Widjaja | crystalwidjaja | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja) | [profile](https://github.com/crystalwidjaja)
 | Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
-
-
-# FRïÐGÊ  hi
-Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well.
 
 ### How to run FRïÐGÊ
 To access the website, visit http://fridge.cf/ (the public IP address) OR clone it on your own machine:
