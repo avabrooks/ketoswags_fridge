@@ -20,7 +20,7 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | Team Member           | Main Topic  |    Issue(s)  | 
 | -------------------------- |-----------------------------|-----------------------------|
 | Ava Brooks | Grayscale | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit 7 Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#)|
-| Sarah Xie |  Model Improvements  | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302)  | 
+| Sarah Xie |  Model Improvements  | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302) <br>  * [Unit 7 Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit#heading=h.nhrftz5zsauw) | 
 | Risa Iwazaki   |  Pastries Page   | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-70101298) | 
 | Crystal Widjaja | Control Improvements |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314472) |
 
