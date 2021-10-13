@@ -316,7 +316,5 @@ public class Main {
 
 
 
-        // need to connect to front end with recipes_grayscale.html
-
     }
 }
