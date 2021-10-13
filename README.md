@@ -15,6 +15,7 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 
 # Week 7 Issues
 [GROUP VID](https://youtu.be/-nuBRmEykGA)
+[Review Ticket](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/36)
 | Team Member           | Main Topic  |    Issue(s)  | 
 | -------------------------- |-----------------------------|-----------------------------|
 | Ava Brooks | Grayscale | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit 7 Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#)|
