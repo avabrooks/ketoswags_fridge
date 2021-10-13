@@ -15,6 +15,7 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 
 # Week 7 Issues
 [GROUP VID](https://youtu.be/-nuBRmEykGA)
+
 [Review Ticket](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/36)
 | Team Member           | Main Topic  |    Issue(s)  | 
 | -------------------------- |-----------------------------|-----------------------------|
