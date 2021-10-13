@@ -1,5 +1,5 @@
 ## Week 3 Pop Quiz
-ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), [New Scrumboard](https://github.com/avabrooks/ketoswags_fridge/projects/1) avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 
 [Crystal and Sarah Journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
 
