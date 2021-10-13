@@ -14,12 +14,13 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
 
 # Week 7 Issues
-| Team Member           | Issue(s)  | 
-| -------------------------- |-----------------------------| 
-| Ava Brooks| * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit 7 Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#)|
-| Sarah Xie               | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302)  | 
-| Risa Iwazaki                | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-70101298) | 
-| Crystal Widjaja                |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314472) |
+[GROUP VID](https://youtu.be/-nuBRmEykGA)
+| Team Member           | Main Topic  |    Issue(s)  | 
+| -------------------------- |-----------------------------|-----------------------------|
+| Ava Brooks | Grayscale | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-68967845) <br>  * [Unit 7 Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#)|
+| Sarah Xie |  Model Improvements  | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314302)  | 
+| Risa Iwazaki   |  Pastries Page   | [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-70101298) | 
+| Crystal Widjaja | Control Improvements |[Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314472) |
 
 # Week 6 Issues
 | Team Member           | Issue(s)  | 
