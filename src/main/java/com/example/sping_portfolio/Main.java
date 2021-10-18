@@ -10,7 +10,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -144,10 +143,16 @@ public class Main {
             return "babyback";
         }
 
-        @GetMapping("/login")
+        @GetMapping("/signin")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String login() {
-            return "login";
+        public String signin() {
+            return "/user/signin";
+        }
+
+        @GetMapping("/signup")
+        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+        public String signup() {
+            return "/user/signup";
         }
 
         @GetMapping("/fortune")
