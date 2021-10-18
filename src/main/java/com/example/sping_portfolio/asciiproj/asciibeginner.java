@@ -11,9 +11,9 @@ public class asciibeginner {
         for (int n = 0; n < x.length; n++) {
             // For each row, I loop through all of the elements of
             // that row (all of the columns)
-            for (int j = 0; j < x[n].length; j++) {
-                System.out.print(x[n][j]);
-                if (showCommas && j < x[n].length - 1) {
+            for (int a = 0; a < x[n].length; a++) {
+                System.out.print(x[n][a]);
+                if (showCommas && a < x[n].length - 1) {
                     System.out.print(",");
                 }
                 else {
