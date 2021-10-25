@@ -16,6 +16,15 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | Crystal Widjaja | crystalwidjaja | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja) | [profile](https://github.com/crystalwidjaja)
 | Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
 
+# Final Review (Part 1) Issues
+
+| Team Member           | Video  |    Issue  |   Comments/Grading | 
+| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
+| Ava Brooks | [Video]() | [Issue]() | Crystal <br> Risa <br> Sarah |
+| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | Ava <br> Risa <br> Sarah |
+| Risa Iwazaki | [Video]() | [Issue]() | Crystal <br> Ava <br> Sarah |
+| Sarah Xie | [Video]() | [Issue]() | Crystal <br> Risa <br> Ava |
+
 # Week 7 Issues
 [GROUP VID](https://youtu.be/-nuBRmEykGA)
 
