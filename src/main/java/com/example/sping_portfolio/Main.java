@@ -9,7 +9,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
+import com.example.sping_portfolio.controllers.CustomerService;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +42,7 @@ public class Main {
 
         @GetMapping("/binary")
         public String binary(@RequestParam(name = "bits", required = false, defaultValue = "8") int bits, Model model) {// CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-            model.addAttribute("bits",bits);
+            model.addAttribute("bits", bits);
             return "binary";
         }
 
@@ -104,7 +109,7 @@ public class Main {
 
 
         @GetMapping("/ava")
-        public String ava(@RequestParam(name="padseq", required=false,  defaultValue="0") String padseq, Model model) {
+        public String ava(@RequestParam(name = "padseq", required = false, defaultValue = "0") String padseq, Model model) {
             int n = Integer.parseInt(padseq);
 
             if (n > 0) {
@@ -115,8 +120,7 @@ public class Main {
                 PadovanWhileLoop p2 = new PadovanWhileLoop();
                 p2.calculatePadovan(n);
                 model.addAttribute("whileLoop", p2.getResults());
-            }
-            else {
+            } else {
                 model.addAttribute("forLoop", 0);
                 model.addAttribute("whileLoop", 0);
             }
@@ -215,39 +219,39 @@ public class Main {
             List<ImageInfo> lii = new ArrayList<>();
 
             String file0 = "/images/breakfast.png";
-            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            lii.add(new ImageInfo(file0, web_server + file0, 12));
             String str = lii.get(0).grayscale();
 
             String file1 = "/images/brunch.png";
-            lii.add(new ImageInfo(file1, web_server+file1, 12));
+            lii.add(new ImageInfo(file1, web_server + file1, 12));
             String str1 = lii.get(1).grayscale();
 
             String file2 = "/images/lunch.png";
-            lii.add(new ImageInfo(file2, web_server+file2, 12));
+            lii.add(new ImageInfo(file2, web_server + file2, 12));
             String str2 = lii.get(2).grayscale();
 
             String file3 = "/images/snack.png";
-            lii.add(new ImageInfo(file3, web_server+file3, 12));
+            lii.add(new ImageInfo(file3, web_server + file3, 12));
             String str3 = lii.get(3).grayscale();
 
             String file4 = "/images/teatime.png";
-            lii.add(new ImageInfo(file4, web_server+file4, 12));
+            lii.add(new ImageInfo(file4, web_server + file4, 12));
             String str4 = lii.get(4).grayscale();
 
             String file5 = "/images/dinner.png";
-            lii.add(new ImageInfo(file5, web_server+file5, 12));
+            lii.add(new ImageInfo(file5, web_server + file5, 12));
             String str5 = lii.get(5).grayscale();
 
             String file6 = "/images/dessert.png";
-            lii.add(new ImageInfo(file6, web_server+file6, 12));
+            lii.add(new ImageInfo(file6, web_server + file6, 12));
             String str6 = lii.get(6).grayscale();
 
             String file7 = "/images/drinks.png";
-            lii.add(new ImageInfo(file7, web_server+file7, 12));
+            lii.add(new ImageInfo(file7, web_server + file7, 12));
             String str7 = lii.get(7).grayscale();
 
             String file8 = "/images/pastries.png";
-            lii.add(new ImageInfo(file7, web_server+file8, 12));
+            lii.add(new ImageInfo(file7, web_server + file8, 12));
             String str8 = lii.get(8).grayscale();
 
 
@@ -269,39 +273,39 @@ public class Main {
             List<ImageInfo> lii = new ArrayList<>();
 
             String file0 = "/images/breakfast.png";
-            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            lii.add(new ImageInfo(file0, web_server + file0, 12));
             String str = lii.get(0).addTextWatermark();
 
             String file1 = "/images/brunch.png";
-            lii.add(new ImageInfo(file1, web_server+file1, 12));
+            lii.add(new ImageInfo(file1, web_server + file1, 12));
             String str1 = lii.get(1).addTextWatermark();
 
             String file2 = "/images/lunch.png";
-            lii.add(new ImageInfo(file2, web_server+file2, 12));
+            lii.add(new ImageInfo(file2, web_server + file2, 12));
             String str2 = lii.get(2).addTextWatermark();
 
             String file3 = "/images/snack.png";
-            lii.add(new ImageInfo(file3, web_server+file3, 12));
+            lii.add(new ImageInfo(file3, web_server + file3, 12));
             String str3 = lii.get(3).addTextWatermark();
 
             String file4 = "/images/teatime.png";
-            lii.add(new ImageInfo(file4, web_server+file4, 12));
+            lii.add(new ImageInfo(file4, web_server + file4, 12));
             String str4 = lii.get(4).addTextWatermark();
 
             String file5 = "/images/dinner.png";
-            lii.add(new ImageInfo(file5, web_server+file5, 12));
+            lii.add(new ImageInfo(file5, web_server + file5, 12));
             String str5 = lii.get(5).addTextWatermark();
 
             String file6 = "/images/dessert.png";
-            lii.add(new ImageInfo(file6, web_server+file6, 12));
+            lii.add(new ImageInfo(file6, web_server + file6, 12));
             String str6 = lii.get(6).addTextWatermark();
 
             String file7 = "/images/drinks.png";
-            lii.add(new ImageInfo(file7, web_server+file7, 12));
+            lii.add(new ImageInfo(file7, web_server + file7, 12));
             String str7 = lii.get(7).addTextWatermark();
 
             String file8 = "/images/pastries.png";
-            lii.add(new ImageInfo(file7, web_server+file8, 12));
+            lii.add(new ImageInfo(file7, web_server + file8, 12));
             String str8 = lii.get(8).addTextWatermark();
 
 
@@ -319,7 +323,20 @@ public class Main {
 
         }
 
+        private final CustomerService customerService;
+
+        @Autowired
+        public MainController(CustomerService customerService) {
+            this.customerService = customerService;
+        }
+
+        @GetMapping("backlog")
+        public String main(Model model) {
+            model.addAttribute("backlog", customerService.recipelog());
+
+            return "backlog";
 
 
+        }
     }
 }
