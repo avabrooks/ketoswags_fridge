@@ -18,7 +18,6 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 
 # Final Review (Part 1) Issues
 
-[Review Ticket](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/36)
 | Team Member           | Video  |    Issue  |   Comments/Grading | 
 | -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
 | Ava Brooks | [Video]() | [Issue]() | Crystal <br> Risa <br> Sarah |
