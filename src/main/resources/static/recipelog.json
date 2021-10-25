@@ -1,0 +1,42 @@
+[
+  {
+    "recipeName": "Chocolate Cake",
+    "recipeType": "Dessert",
+    "dateAccessed": "September 23"
+  },
+  {
+    "recipeName": "Deviled Eggs",
+    "recipeType": "Appetizers",
+    "dateAccessed": "October 5"
+  },
+  {
+    "recipeName": "Lemonade",
+    "recipeType": "Drinks",
+    "dateAccessed": "July 4"
+  },
+  {
+    "recipeName": "Green Bean Casserole",
+    "recipeType": "Entrees",
+    "dateAccessed": "February 21"
+  },
+  {
+    "recipeName": "Clam Chowder",
+    "recipeType": "Soups",
+    "dateAccessed": "January 30"
+  },
+  {
+    "recipeName": "Sourdough Bread",
+    "recipeType": "Breads",
+    "dateAccessed": "October 3"
+  },
+  {
+    "recipeName": "Vanilla Cupcakes",
+    "recipeType": "Desserts",
+    "dateAccessed": "March 19"
+  },
+  {
+    "recipeName": "Bloody Mary",
+    "recipeType": "Drinks",
+    "dateAccessed": "May 7"
+  }
+]
