@@ -1,29 +1,23 @@
-package com.example.sping_portfolio.grayscale;
+package com.example.sping_portfolio.controllers;
 
-import lombok.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
+import java.awt.Color;
+import java.awt.image.BufferedImage;
+import javax.imageio.ImageIO;
 
-@Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
-public class ImagePropertyRgb extends ImageInfo {
+public class ImageInfo {
     public int scale_factor;
     public String file, url;
     public int height, scaled_height;
     public int width, scaled_width;
-    public int[][][] rgb_matrix_decimal;
-    public int[][][] rgb_matrix_hexadecimal;
-    public int[][][] rgb_matrix_binary;
+    public int[][][] rgb_matrix;
 
     // basic constructor
-    public ImagePropertyRgb(String file, String url, int scale_factor) {
-        super(file, url, scale_factor);
+    public ImageInfo(String file, String url, int scale_factor) {
         this.file = file;
         this.url = url;
         this.scale_factor = scale_factor;
@@ -37,17 +31,18 @@ public class ImagePropertyRgb extends ImageInfo {
             this.scaled_height = this.height / scale_factor;
             this.width = img.getWidth();
             this.scaled_width = this.width / scale_factor;
-            //System.out.println(Integer.toString(this.height) + " " + Integer.toString(this.width));
-            this.rgb_matrix_decimal = new int[this.height][this.width][3];
+            System.out.println(Integer.toString(this.height) + " " + Integer.toString(this.width));
+            this.rgb_matrix = new int[this.height][this.width][3];
+            // this.rgb_matrix = new int[this.scaled_height][this.scaled_width][3];
 
             for (int y = 0; y < this.height; y++) {
                 for (int x = 0; x < this.width; x++) {
                     int pixel = img.getRGB(x, y);
                     Color color = new Color(pixel, true);
 
-                    this.rgb_matrix_decimal[y][x][0] = color.getRed();
-                    this.rgb_matrix_decimal[y][x][1] = color.getGreen();
-                    this.rgb_matrix_decimal[y][x][2] = color.getBlue();
+                    this.rgb_matrix[y][x][0] = color.getRed();
+                    this.rgb_matrix[y][x][1] = color.getGreen();
+                    this.rgb_matrix[y][x][2] = color.getBlue();
                 }
             }
 
@@ -66,7 +61,6 @@ public class ImagePropertyRgb extends ImageInfo {
             BufferedImage img = ImageIO.read(new URL(url)); // Saving internet image to BufferedImage
             byte[] pixels = image_to_pixels(img); // See method definition
             int[] pixels_int = grayscale(pixels);
-            // System.out.println(pixels_int);
             String base64 = pixels_to_base64(img.getWidth(), img.getHeight(), pixels_int);
             return "data:image/jpg;base64," + base64;
         } catch (IOException e) {
@@ -93,19 +87,15 @@ public class ImagePropertyRgb extends ImageInfo {
             pixels_int[i + 2] = (int) val;
             pixels_int[i + 3] = (int) val;
         }
-        System.out.println("this is one answer");
-        System.out.println(pixels_int);
         return pixels_int;
     }
 
     /**
      * param img
      * returns byte[]
-     * <p>
      * This method takes the buffered image and converts to a 1D array of byte values.
      * If the image is 100 by 300 pixels the length of array will be":
      * 100 x 300 x 4 = 120,000
-     * <p>
      * We multiply the total number of pixels by 4 because of ARGB (alpga, red, green, blue)
      */
     public byte[] image_to_pixels(BufferedImage img) throws IOException {
@@ -147,6 +137,18 @@ public class ImagePropertyRgb extends ImageInfo {
         return ((a & 0x0ff) << 24) | ((r & 0x0ff) << 16) | ((g & 0x0ff) << 8) | (b & 0x0ff);
     }
 
+    public String getFile() {
+        return this.file;
+    }
+
+
+    public int getHeight() {
+        return this.height;
+    }
+
+    public int getWidth() {
+        return this.width;
+    }
 
     public int getScaled_height(int row) {
         return row * this.scale_factor;
@@ -159,9 +161,9 @@ public class ImagePropertyRgb extends ImageInfo {
     public String getRGB(int row, int col) {
         int h = row * this.scale_factor;
         int w = col * this.scale_factor;
-        return "(" + rgb_matrix_decimal[h][w][0] +
-                "," + rgb_matrix_decimal[h][w][1] +
-                "," + rgb_matrix_decimal[h][w][2] +
+        return "(" + rgb_matrix[h][w][0] +
+                "," + rgb_matrix[h][w][1] +
+                "," + rgb_matrix[h][w][2] +
                 ")";
     }
 
@@ -170,20 +172,20 @@ public class ImagePropertyRgb extends ImageInfo {
         int w = col * this.scale_factor;
         // String.format guarantees 0 padding vs Integer.toHexString
         return "#" +
-                String.format("%02X", rgb_matrix_decimal[h][w][0]) +
-                String.format("%02X", rgb_matrix_decimal[h][w][1]) +
-                String.format("%02X", rgb_matrix_decimal[h][w][2]);
+                String.format("%02X", rgb_matrix[h][w][0]) +
+                String.format("%02X", rgb_matrix[h][w][1]) +
+                String.format("%02X", rgb_matrix[h][w][2]);
     }
 
     public String getBinary(int row, int col) {
         int h = row * this.scale_factor;
         int w = col * this.scale_factor;
         // Java does not have binary as string formatter
-        return String.format("%8s", Integer.toBinaryString(rgb_matrix_decimal[h][w][0])).replace(' ', '0') +
+        return String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][0])).replace(' ', '0') +
                 " " +
-                String.format("%8s", Integer.toBinaryString(rgb_matrix_decimal[h][w][1])).replace(' ', '0') +
+                String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][1])).replace(' ', '0') +
                 " " +
-                String.format("%8s", Integer.toBinaryString(rgb_matrix_decimal[h][w][2])).replace(' ', '0');
+                String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][2])).replace(' ', '0');
     }
 
     public String[] convert_to_ascii() {
@@ -198,9 +200,9 @@ public class ImagePropertyRgb extends ImageInfo {
         int[][] gs = new int[height][width];
         for (int h = 0; h < height; h++) {
             for (int w = 0; w < width; w++) {
-                int r = this.rgb_matrix_decimal[h][w][0];
-                int g = this.rgb_matrix_decimal[h][w][1];
-                int b = this.rgb_matrix_decimal[h][w][2];
+                int r = this.rgb_matrix[h][w][0];
+                int g = this.rgb_matrix[h][w][1];
+                int b = this.rgb_matrix[h][w][2];
                 // averaging
                 int avg = (r + g + b) / 3;
                 gs[h][w] = avg;
@@ -233,5 +235,5 @@ public class ImagePropertyRgb extends ImageInfo {
         //System.out.println(Arrays.deepToString(scaled));
         return scaled;
     }
-
 }
+
