@@ -22,7 +22,7 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
 | Ava Brooks | [Video]() | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71488804) | Crystal <br> Risa <br> Sarah |
 | Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | Ava <br> Risa <br> Sarah |
-| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | Crystal https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882 Ava <br> Sarah |
+| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882) Ava <br> Sarah |
 | Sarah Xie | [Video]() | [Issue]() | Crystal <br> Risa <br> Ava |
 
 # Week 7 Issues
