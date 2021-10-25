@@ -8,7 +8,7 @@ Customers will be able to input the ingredients they have, and we will output po
 | Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71488804) | Crystal <br> Risa <br> Sarah |
 | Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | Ava <br> Risa <br> Sarah |
 | Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882) Ava <br> Sarah |
-| Sarah Xie | [Video]() | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71501752) | Crystal <br> Risa <br> Ava |
+| Sarah Xie | [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71501752) | Crystal <br> Risa <br> Ava |
 
 ### Individul Grading:
 | Team Member            | Github ID   | Tasks      | Scrum Board    | Commits   | Profile   |
