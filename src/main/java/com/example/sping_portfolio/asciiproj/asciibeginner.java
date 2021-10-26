@@ -11,7 +11,7 @@ public class asciibeginner {
                 }
                 else {
                     System.out.print(" ");
-                }
+                }   
             }
             System.out.print("\n");
         }

@@ -29,15 +29,18 @@ public class Main {
     public class MainController {
 
         @GetMapping("/aboutus")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String aboutus() {
             return "aboutus";
         }
 
         @GetMapping("/algorithm")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String algorithm() {
             return "algorithm";
+        }
+
+        @GetMapping("/ascii")
+        public String ascii() {
+            return "ascii";
         }
 
         @GetMapping("/binary")
