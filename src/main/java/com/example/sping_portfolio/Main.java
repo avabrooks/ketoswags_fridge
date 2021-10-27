@@ -40,6 +40,11 @@ public class Main {
             return "algorithm";
         }
 
+        @GetMapping("/ascii")
+        public String ascii() {
+            return "ascii";
+        }
+
         @GetMapping("/binary")
         public String binary(@RequestParam(name = "bits", required = false, defaultValue = "8") int bits, Model model) {// CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
             model.addAttribute("bits", bits);
@@ -101,8 +106,8 @@ public class Main {
         }
 
         // sarah & crystal ascii project
-        @GetMapping("/ascii")
-        public String ascii(Model model) {
+        @GetMapping("/asciiCool")
+        public String asciicool(Model model) {
             String web_server = "http://localhost:8081/";
             List<ImageInfo> lii = new ArrayList<>();
             // change the file to add a different file

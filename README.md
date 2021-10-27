@@ -1,12 +1,14 @@
 # FRïÐGÊ
 Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well. To assist in the designing and creation of the website, we have created a [project plan](https://docs.google.com/document/d/1-Fu02966V36WSjEJmNHyH8fAHgU8KmF9d7niSmq0crw/edit) and [storyboard](https://docs.google.com/presentation/d/17Bie2N05n45lA9Wb8htUu6bARM4VbkqW-E4211it5zY/edit#slide=id.p) which provides visuals and goals for our website. 
 
-## Week 3 Pop Quiz
-ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), [New Scrumboard](https://github.com/avabrooks/ketoswags_fridge/projects/1) avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+# Final Review (Part 1) Issues
 
-[Crystal and Sarah Journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
-
-[Risa and Ava Journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit?usp=sharing)
+| Team Member           | Video  |    Issue  |   Comments on Others |   Average Grade   | 
+| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|-------------------------|
+| Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/4) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950577509) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-950582467) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-950715083) | 6/6 |
+| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-951496062) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-951500289) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-951504532) | 5.5 |
+| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882) <br> [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-951120057) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-951124367) | 5.75 |
+| Sarah Xie | [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/6) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950744670) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-950732994) <br> [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-950740834) | 5.75 |
 
 ### Individul Grading:
 | Team Member            | Github ID   | Tasks      | Scrum Board    | Commits   | Profile   |
@@ -16,14 +18,7 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | Crystal Widjaja | crystalwidjaja | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/assigned/crystalwidjaja) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1?card_filter_query=assignee%3A+crystal) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=crystalwidjaja) | [profile](https://github.com/crystalwidjaja)
 | Risa Iwazaki | risaiwazaki | [tasks](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues?q=assignee%3Arisaiwazaki) | [scrum board](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1) | [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits?author=risaiwazaki) and more [commits](https://github.com/sarahwxie/ketoswags_spring_portfolio/commits/master?after=da13a4c90c96b6f26868b333577e2cc82a4c3eb4+34&branch=master) | [profile](https://github.com/risaiwazaki)
 
-# Final Review (Part 1) Issues
 
-| Team Member           | Video  |    Issue  |   Comments/Grading | 
-| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
-| Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71488804) | Crystal <br> Risa <br> Sarah |
-| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | Ava <br> Risa <br> Sarah |
-| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882) Ava <br> Sarah |
-| Sarah Xie | [Video]() | [Issue](https://github.com/avabrooks/ketoswags_fridge/projects/1#card-71501752) | Crystal <br> Risa <br> Ava |
 
 # Week 7 Issues
 [GROUP VID](https://youtu.be/-nuBRmEykGA)
@@ -59,8 +54,9 @@ ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfo
 | Sarah Xie               | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/31) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit) | 
 | Risa Iwazaki                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/33) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Unit Work](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.u6ykynk3wxij) | 
 | Crystal Widjaja                | * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/issues/32) <br> * [Unit Work](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)|
+
 ## Week 3 Pop Quiz
-ketoswags, https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1, avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
+ketoswags, [Old Scrumboard](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1), [New Scrumboard](https://github.com/avabrooks/ketoswags_fridge/projects/1) avabrooks, crystalwidjaja, risaiwazaki, sarahwxie
 
 [Crystal and Sarah Journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit)
 
