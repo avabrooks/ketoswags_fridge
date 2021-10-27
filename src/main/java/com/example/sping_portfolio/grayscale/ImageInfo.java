@@ -74,6 +74,37 @@ public class ImageInfo {
         return "";
     }
 
+    // sarah+crystal's dope ascii converter
+    public String[] ascii_toview() {
+        try {
+            BufferedImage img = ImageIO.read(new URL(url)); // Saving internet image to BufferedImage
+            byte[] pixels = image_to_pixels(img); // See method definition
+            System.out.println("here it is but before");
+            int[] pixels_int = grayscale(pixels);
+            String[] pixels_string = ascii_conversion(pixels_int);
+            int count = 0;
+            String[] toView = new String[img.getHeight()];
+            for (int i = 0; i < img.getHeight(); i++)
+            {
+                String rowString = "";
+                for (int j = 0; j < img.getWidth(); j++)
+                {
+                    System.out.print(pixels_string[count]);
+                    rowString = rowString + pixels_string[count];
+                    count ++;
+                }
+                System.out.println();
+                toView[i] = rowString;
+
+            }
+            return toView;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String[] toView = new String[0];
+        return toView;
+    }
+
 
     // given an image, creates a watermark
     public String addTextWatermark() {
@@ -169,6 +200,52 @@ public class ImageInfo {
         }
         System.out.println(pixels_int);
         return pixels_int;
+    }
+
+    // the ascii conversion continued
+    public String[] ascii_conversion(int[] pixels) {
+        String[] ascii_list = new String[pixels.length / 4];
+        int count = 0;
+        for (int i = 1; i < pixels.length; i += 4) {
+            float val = pixels[i];
+            if ((int)val > 225){
+                ascii_list[count] = "@@@@";
+            }
+            else if ((int)val > 200){
+                ascii_list[count] = " ## ";
+            }
+            else if ((int)val > 175){
+                ascii_list[count] = " %% ";
+            }
+            else if ((int)val > 150){
+                ascii_list[count] = " xx ";
+            }
+            else if ((int)val > 125){
+                ascii_list[count] = " oo ";
+            }
+            else if ((int)val > 100){
+                ascii_list[count] = " ;; ";
+            }
+            else if ((int)val > 75){
+                ascii_list[count] = " :: ";
+            }
+            else if ((int)val > 50){
+                ascii_list[count] = " ,, ";
+            }
+            else if ((int)val > 25){
+                ascii_list[count] = " .. ";
+            }
+            else {
+                ascii_list[count] = "    ";
+            }
+            // System.out.print(ascii_list[count]);
+            count ++;
+            if (count > 256885) {
+                break;
+            }
+        }
+        // System.out.println(ascii_list);
+        return ascii_list;
     }
 
     /**

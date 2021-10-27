@@ -100,6 +100,21 @@ public class Main {
             return "recipes/pastries";
         }
 
+        // sarah & crystal ascii project
+        @GetMapping("/ascii")
+        public String ascii(Model model) {
+            String web_server = "http://localhost:8081/";
+            List<ImageInfo> lii = new ArrayList<>();
+            // change the file to add a different file
+            // warning that if the file is too big/ the wrong shape it'll look sus
+            String file0 = "/images/test4.png";
+            lii.add(new ImageInfo(file0, web_server+file0, 12));
+            String[] str = lii.get(0).ascii_toview();
+
+            model.addAttribute("str", str);
+            return "ascii";
+        }
+
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
@@ -134,13 +149,13 @@ public class Main {
         public String risa() {
             return "individual/risa";
         }
-
+        /*
         @GetMapping("/sarah")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         // test reversion
         public String sarah() {
             return "individual/sarah";
-        }
+        }*/
 
         @GetMapping("/babyback")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
