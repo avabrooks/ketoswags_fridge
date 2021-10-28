@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.data;
 
-
+/*
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,8 +23,8 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         return "data/user";
     }
 
-    /*  The HTML template Forms and userForm attributes are bound
+    The HTML template Forms and userForm attributes are bound
         @return - template for user form
         @param - user Class
-    */
 
+ */
