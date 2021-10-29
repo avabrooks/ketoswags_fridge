@@ -132,6 +132,11 @@ public class Main {
 
         }
 
+        @GetMapping("/profile")
+        public String profile() {
+            return "user/profile";
+        }
+
         @GetMapping("/risa")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String risa() {
