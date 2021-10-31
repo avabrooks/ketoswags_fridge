@@ -11,16 +11,34 @@
 
 </head>
 
+
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div style="padding: 60px; margin-left: 50px;">
-        <h1>Drink Recipes</h1>
-        <button>Jump to Recipes!</button>
-        <h5>Homemade drinks are very refreshing and enjoyable to drink during any meal! Whether it be drinking with friends or drinking on a Friday night, enjoy these simple recipes to make for fun!</h5>
+        <div>
+            <!-- Input -->
+            <h1>Drink Recipes</h1>
+            <button>Jump to Recipes!</button>
+            <h5>Homemade drinks are very refreshing and enjoyable to drink during any meal! Whether it be drinking with friends or drinking on a Friday night, enjoy these simple recipes to make for fun!</h5>
+            <form action="/drinks" method="GET" id="num">
+                <div>
+                    <label for="greetField">Type the number of ingredients you have!</label>
+                    <input name="padseq" id="greetField">
+                    <button>Go!</button>
+                    <img src="" th:src="@{'/images/smoothie.png'}" style="margin-left:15px; max-width: 25%;">
+                </div>
+            </form>
 
+            <h1>Types of Smoothies you can make:</h1>
+            <br>
+            <br>
 
+                </tbody>
+            </table>
+
+        </div>
     </div>
     <!-- End of body content specific to page -->
-</div></body>
+</div></body>>
 
-</html>
+

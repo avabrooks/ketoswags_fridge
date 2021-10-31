@@ -143,7 +143,6 @@ public class Main {
             return "individual/risa";
         }
 
-
         @GetMapping("/babyback")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String babyback() {
