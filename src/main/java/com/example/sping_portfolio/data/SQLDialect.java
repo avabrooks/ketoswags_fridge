@@ -1,5 +1,5 @@
-package com.example.sping_portfolio.data.user;
-/*
+package com.example.sping_portfolio.data;
+
 import org.hibernate.dialect.Dialect;
 import org.hibernate.dialect.function.SQLFunctionTemplate;
 import org.hibernate.dialect.function.StandardSQLFunction;
@@ -8,9 +8,9 @@ import org.hibernate.type.StringType;
 
 import java.sql.Types;
 
-
+/*
 This Dialect is brought into project to support SQLite
-
+ */
 public class SQLDialect extends Dialect {
     public SQLDialect() {
         registerColumnType(Types.BIT, "integer");
@@ -137,5 +137,4 @@ public class SQLDialect extends Dialect {
     public boolean supportsCascadeDelete() {
         return false;
     }
-
- */
+}

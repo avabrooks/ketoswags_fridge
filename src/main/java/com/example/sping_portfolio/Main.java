@@ -154,12 +154,6 @@ public class Main {
             return "/user/signin";
         }
 
-        @GetMapping("/signup")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String signup() {
-            return "/user/signup";
-        }
-
         @GetMapping("/fortune")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String fortune(@RequestParam(name = "name", required = false, defaultValue = "999") String name, Model model) {
