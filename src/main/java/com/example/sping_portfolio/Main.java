@@ -110,7 +110,6 @@ public class Main {
             return "individual/crystal";
         }
 
-
         @GetMapping("/ava")
         public String ava(@RequestParam(name = "padseq", required = false, defaultValue = "0") String padseq, Model model) {
             int n = Integer.parseInt(padseq);
