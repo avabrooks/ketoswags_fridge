@@ -118,6 +118,10 @@ public class Main {
             return "ascii";
         }
 
+        @GetMapping("/code")
+        public String code(){
+            return "code";
+        }
 
         @GetMapping("/crystal")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
