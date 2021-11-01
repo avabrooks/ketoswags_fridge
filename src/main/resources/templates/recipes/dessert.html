@@ -15,10 +15,205 @@
     <!-- Start of body content specific to page -->
     <div style="padding: 60px; margin-left: 50px;">
         <h1>Dessert Recipes</h1>
-        <button>Jump to Recipes!</button>
-        <h5></h5>
+        <button type="button"><a href="/recipes">Jump to Recipes</a></button>
+        <h5>Enjoy a sweet snack after meals with a dessert. From hot to cold and mushy to crunchy, we have a large selection for you!</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+        </svg>
+
+
+
     </div>
-    <!-- End of body content specific to page -->
-</div></body>
+
+
+    <!doctype html>
+    <html lang="en">
+    <head>
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+
+
+    </head>
+    <body>
+
+    <main>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts1.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text"> Strawberry Poke Cake - We make this beloved dessert with not-too-sweet buttermilk cake and very lightly sweetened whipped cream. The cake tastes best just slightly chilled, so let it sit out to warm up a bit while you whip the cream for the topping.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/food-network-kitchen/strawberry-poke-cake-3362177';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">150 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts2.jpg'}" alt="pastries" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">Skillet Cookie Sundae - Bake this giant chocolate chip cookie in a cast-iron skillet for crispy edges and a melt-in-your-mouth center. Top with your favorite ice cream, hot fudge, whipped cream and maraschino cherries.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/ree-drummond/skillet-cookie-sundae-2407226';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">55 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts3.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">Fruit Pizza - Use any combination of ripe summer fruit you can find for this fresh fruit "pizza," made with a big sugar cookie crust.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/food-network-kitchen/sugar-cookie-fruit-pizza-8817911';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">90 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts4.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Brownie Cookies - Get the best of both worlds with Ree’s brownie cookies. The crowning touch is the powdered sugar she adds after the cookies have cooled.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/ree-drummond/brownie-cookies-3141128';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">90 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts5.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Flourless Chocolate Cake - This gluten-free cake can be enjoyed at room temperature, but chilling it transforms the texture, making it deliciously dense.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/food-network-kitchen/flourless-chocolate-cake-3364906';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">85 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts6.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Cake Pops - When life calls for cake pops, let this be your go-to recipe. Feel free to change the cake and frosting flavors to whatever is your favorite. Just follow this easy technique and you will have perfect cake pops for a crowd (or the next bake sale).</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/food-network-kitchen/cake-pops-8317118';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">80 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts7.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Chocolate Chip Cookies - Meet your go-to chocolate chip cookie. This quick, fan-favorite recipe requires no special equipment — and the dough is versatile enough for other baking projects (like rocky road bar cookies).</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/food-network-kitchen/chocolate-chip-cookies-recipe4-2011856';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">35 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts8.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+                            <div class="card-body">
+                                <p class="card-text">Banana Cream Pudding - Tyler flavors his decadent Banana Cream Pudding with vanilla, bourbon and creme de banana. Top with homemade whipped cream for a vibrant centerpiece.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/tyler-florence/banana-cream-pudding-recipe-1917486';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">25 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="" th:src="@{'/images/desserts9.jpg'}" alt="desserts" style="margin-left:30px; max-width: 65%;">
+
+                            <div class="card-body">
+                                <p class="card-text">Peanut Butter Cookies - Save time in the kitchen with these speedy cookies. Just mix the ingredients, roll in sugar, press a fork in the top to create the signature lines — and bake! </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.foodnetwork.com/recipes/peanut-butter-cookies-recipe-1958157';" value="View" />
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">45 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+
+        </div>
+    </footer>
+
+</div>
+
+</body>
 
 </html>

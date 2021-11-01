@@ -29,13 +29,11 @@ public class Main {
     public class MainController {
 
         @GetMapping("/aboutus")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String aboutus() {
             return "aboutus";
         }
 
         @GetMapping("/algorithm")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String algorithm() {
             return "algorithm";
         }
@@ -127,7 +125,6 @@ public class Main {
             return "individual/crystal";
         }
 
-
         @GetMapping("/ava")
         public String ava(@RequestParam(name = "padseq", required = false, defaultValue = "0") String padseq, Model model) {
             int n = Integer.parseInt(padseq);
@@ -149,18 +146,16 @@ public class Main {
 
         }
 
+        @GetMapping("/profile")
+        public String profile() {
+            return "user/profile";
+        }
+
         @GetMapping("/risa")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String risa() {
             return "individual/risa";
         }
-        /*
-        @GetMapping("/sarah")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        // test reversion
-        public String sarah() {
-            return "individual/sarah";
-        }*/
 
         @GetMapping("/babyback")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
@@ -172,12 +167,6 @@ public class Main {
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String signin() {
             return "/user/signin";
-        }
-
-        @GetMapping("/signup")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String signup() {
-            return "/user/signup";
         }
 
         @GetMapping("/fortune")
