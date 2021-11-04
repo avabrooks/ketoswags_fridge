@@ -8,59 +8,56 @@
 
     <!-- End of head content specific to page -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+        @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
-        * {
+        body {
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Noto Sans', sans-serif
+            font-family: 'Lato', sans-serif;
         }
 
-        html,
-        body {
-            height: 100%
+        .header {
+            min-height: 60vh;
+            color: #823a23;
+            clip-path: ellipse(100vw 60vh at 50% 50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        body {
-            display: grid;
-            place-items: center;
+        .details {
+            text-align: center;
         }
 
-        .neo-button {
-            width: 40px;
-            height: 40px;
-            outline: 0 !important;
-            cursor: pointer;
-            color: #000000;
-            font-size: 15px;
-            border: none;
+        .profile-pic {
+            height: 6rem;
+            width: 6rem;
+            object-fit: center;
             border-radius: 50%;
-            background: linear-gradient(145deg, #9a40a9, #b74cc9);
+            border: 2px solid #823a23;
         }
 
-        .num {
-            color: #000000 !important
+        .location p {
+            display: inline-block;
         }
 
-        .line {
-            color: #000000
+        .location svg {
+            vertical-align: middle;
         }
 
-        .neo-button:active {
-            border-radius: 50%;
-            background: #AB47BC;
+        .stats {
+            display: flex;
         }
 
-
-        .profile_button {
-            color: #fff;
-            padding: 10px;
-            border: none;
-            outline: 0 !important;
-            background: #823a23;
+        .stats .col-4 {
+            width: 10rem;
+            text-align: center;
         }
 
+        .heading {
+            font-weight: 400;
+            font-size: 1.3rem;
+            margin: 1rem 0;
+        }
     </style>
 </div>
 </head>
@@ -69,34 +66,37 @@
 
     <div class="container">
         <div class="container d-flex justify-content-center">
-            <div>
-                <div class="text-center"> <img src="https://i.imgur.com/stD0Q19.jpg" width="100" class="rounded-circle">
-                    <h3 class="mt-2">Maria Smantha</h3> <span class="mt-1 clearfix">Android Developer</span>
-                    <div class="row mt-3 mb-3">
-                        <div class="col-md-4">
-                            <h5>Projects</h5> <span class="num">10</span>
+            <section class="profile">
+                <header class="header">
+                    <div class="details">
+                        <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=b38c22a46932485790a3f52c61fcbe5a" alt="John Doe" class="profile-pic">
+                        <h1 class="heading">Jane Doe</h1>
+                        <div class="stats">
+                            <div class="col-4">
+                                <h4>20</h4>
+                                <p>Reviews</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>10</h4>
+                                <p>Communities</p>
+                            </div>
+                            <div class="col-4">
+                                <h4>100</h4>
+                                <p>Discussions</p>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <h5>Projects</h5> <span class="num">10</span>
-                        </div>
-                        <div class="col-md-4">
-                            <h5>Projects</h5> <span class="num">10</span>
-                        </div>
+                        <br>
+                        <br>
+                        <h3>Past Recipes:</h3>
                     </div>
-                    <hr class="line"> <small class="mt-4">I am an android developer working at google Inc at california,USA</small>
-                    <div class="profile mt-5"> <button class="profile_button px-5">View profile</button> </div>
-                </div>
-            </div>
+                </header>
+            </section>
         </div>
-        </div>
-
-        </body>
-
-
-        </html>
-
     </div>
-    <script type="application/javascript">
-    </script>
+</div>
+
+</div>
+<script type="application/javascript">
+</script>
 
 </div></body>
