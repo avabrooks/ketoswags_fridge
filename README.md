@@ -1,5 +1,12 @@
 # FRïÐGÊ
-Customers will be able to input the ingredients they have, and we will output possible recipes they could make. On top of this, we will have customers make accounts so that they could view past recipes that they had previously made and could possibly rate the recipes as well. To assist in the designing and creation of the website, we have created a [project plan](https://docs.google.com/document/d/1-Fu02966V36WSjEJmNHyH8fAHgU8KmF9d7niSmq0crw/edit) and [storyboard](https://docs.google.com/presentation/d/17Bie2N05n45lA9Wb8htUu6bARM4VbkqW-E4211it5zY/edit#slide=id.p) which provides visuals and goals for our website. 
+
+### What is FRïÐGÊ?
+* Site where users can explore different recipes 
+* Create accounts to track past recipes
+* Find recipes that match all of your cravings and different times of day
+
+
+### Why did we create FRïÐGÊ?
 
 
 
@@ -14,7 +21,8 @@ Customers will be able to input the ingredients they have, and we will output po
 
 
 
-
+### [project plan](https://docs.google.com/document/d/1-Fu02966V36WSjEJmNHyH8fAHgU8KmF9d7niSmq0crw/edit)
+### [storyboard](https://docs.google.com/presentation/d/17Bie2N05n45lA9Wb8htUu6bARM4VbkqW-E4211it5zY/edit#slide=id.p)
 ### Scrum board [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1)
 ### Nav bar code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/resources/templates/fragments/nav.html)
 ### Greet code [here](https://github.com/sarahwxie/ketoswags_spring_portfolio/blob/master/src/main/java/com/example/sping_portfolio/controllers/Greet.java)
@@ -28,35 +36,6 @@ Customers will be able to input the ingredients they have, and we will output po
 * Risa: Personal computer plan
 * Ava: Personal computer plan
 * Sarah: Hybrid plan with mac at school and personal laptop at home
-
-# CB Units 
-### Primitive Types
-### Using Objects
-### Boolean Expressions and if Statements
-### Iteration
-### Writing Classes
-### Array
-### ArrayList
-### 2D Array
-### Inheritance
-### Recursion 
-
-
-# CB Big Idea Elaborations
-### Big Idea 1: Modularity(MOD)
-* Object-oriented programming
-* Abstraction 
-
-### Big Idea 2: Variables(VAR)
-* Variables store data and create data abstraction 
-
-### Big Idea 3: Control(CON)
-* Thinking algorithmically
-
-### Big Idea 4: Impact of Computing(IC)
-* Aware of privacy, security, and ethical issues
-
-### Big Idea 5: Impact of Computing
 
 
 # Creators
