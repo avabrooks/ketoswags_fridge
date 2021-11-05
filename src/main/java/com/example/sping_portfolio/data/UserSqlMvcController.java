@@ -29,6 +29,12 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         return "/user/signup";
     }
 
+    @PostMapping("/signin")
+    public String personLogin(@Valid User user, BindingResult bindingResult) {
+        String redirectUrl = "http://localhost:8081/profile/1";
+        return "redirect:" + redirectUrl;
+    }
+
     @PostMapping("/signup")
     public String personSave(@Valid User user, BindingResult bindingResult) {
         // Validation of Decorated PersonForm attributes
@@ -42,7 +48,7 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         return "user/profile";
     }
 
-    @GetMapping("/profile/{id}")
+    @GetMapping(value="/profile/1")
     public String getProfileGood(@RequestParam(name = "name", required = false, defaultValue = "1") String name, Model model) {
         System.out.println("personAdd");
         User user = repository.get(1);

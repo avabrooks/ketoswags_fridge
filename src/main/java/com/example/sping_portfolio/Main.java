@@ -179,12 +179,6 @@ public class Main {
             return "user/signin";
         }
 
-        @PostMapping("/signin")
-        public String personLogin(@Valid User user, BindingResult bindingResult) {
-            // Validation of Decorated PersonForm attributes
-            System.out.println(user.getName());
-            return "user/signin";
-        }
 
 
         @GetMapping("/fortune")
