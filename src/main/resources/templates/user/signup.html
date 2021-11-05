@@ -48,7 +48,7 @@
             font-family: 'Ubuntu', sans-serif;
         }
 
-        form.form {
+        form.form1 {
             padding-top: 40px;
         }
 
@@ -135,21 +135,21 @@
         <body>
         <div class="main">
             <p class="sign" align="center">Sign Up</p>
-            <form action="#" th:action="@{/signup}" th:object="${user}" method="POST">
+            <form action="#" th:action="@{/signup}" th:object="${user}" class="form1" method="POST">
                 <table>
                     <tr>
                         <td>Name:</td>
-                        <td><input type="text" th:field="*{name}" /></td>
+                        <td><input type="text" placeholder="Username" class="un"/></td>
                         <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
                     </tr>
                     <tr>
                         <td>Password:</td>
-                        <td><input type="password" th:field="*{password}" /></td>
+                        <td><input type="password" placeholder="Password" class="pass"/></td>
                         <td th:if="${#fields.hasErrors('password')}" th:errors="*{email}">EMail Error</td>
                     </tr>
 
                     <tr>
-                        <td><button type="submit">Add</button></td>
+                        <td><button class="submit" type="submit">Sign Up</button></td>
                     </tr>
                 </table>
             </form>
