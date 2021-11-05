@@ -6,6 +6,8 @@ import com.example.sping_portfolio.data.User;
 import com.example.sping_portfolio.grayscale.ImageInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -183,6 +185,7 @@ public class Main {
             System.out.println(user.getName());
             return "user/signin";
         }
+
 
         @GetMapping("/fortune")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings

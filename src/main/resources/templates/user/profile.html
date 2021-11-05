@@ -70,7 +70,7 @@
                 <header class="header">
                     <div class="details">
                         <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=b38c22a46932485790a3f52c61fcbe5a" alt="John Doe" class="profile-pic">
-                        <h1 class="heading">{{user.name}}</h1>
+                        <h1 class="heading" th:text="${name}"></h1>
                         <div class="stats">
                             <div class="col-6">
                                 <h4>20</h4>
@@ -84,6 +84,7 @@
                         <br>
                         <br>
                         <h3>Past Recipes:</h3>
+                        <p th:text="${r}"></p>
                     </div>
                 </header>
             </section>

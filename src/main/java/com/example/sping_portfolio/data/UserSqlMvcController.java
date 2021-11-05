@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -41,6 +42,16 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         return "user/profile";
     }
 
+    @GetMapping("/profile/{id}")
+    public String getProfileGood(@RequestParam(name = "name", required = false, defaultValue = "1") String name, Model model) {
+        System.out.println("personAdd");
+        User user = repository.get(1);
+        System.out.println(user);
+        model.addAttribute("name", user.getName());
+        model.addAttribute("r", user.getRecipes());
+        return "/user/profile";
+    }
+
 
     @RequestMapping(value = "/api/people/get")
     public ResponseEntity<List<User>> getPeople() {
@@ -59,7 +70,7 @@ public class UserSqlMvcController implements WebMvcConfigurer {
 
     /*
     POST Aa record by Requesting Parameters from URI
-     */
+
     @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
     public ResponseEntity<Object> postPerson(@RequestParam("password") String password,
                                              @RequestParam("name") String name) {
@@ -68,6 +79,6 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         User person = new User(password, name);
         repository.save(person);
         return new ResponseEntity<>(name +" is created successfully", HttpStatus.CREATED);
-    }
+    }*/
 
 }
