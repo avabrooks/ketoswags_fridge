@@ -21,16 +21,12 @@ public class User {
     @Size(min=8)
     private String password;
 
-    /*
-    @NonNull: Places this in @RequiredArgsConstructor
-    @Size(min=2, max=30): Allows names between 2 and 30 characters long.
-     */
     @NonNull
     @Size(min = 2, max = 30, message = "Name (2 to 30 chars)")
     private String name;
 
 
-    /* Initializer used when setting data from an API */
+    /* Initializer*/
     public User(String password, String name) {
         this.password = password;
         this.name = name;
