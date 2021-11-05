@@ -2,12 +2,15 @@ package com.example.sping_portfolio;
 
 import com.example.sping_portfolio.algorithms.PadovanForLoop;
 import com.example.sping_portfolio.algorithms.PadovanWhileLoop;
+import com.example.sping_portfolio.data.User;
 import com.example.sping_portfolio.grayscale.ImageInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,6 +18,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.sping_portfolio.controllers.CustomerService;
+
+import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -168,9 +173,15 @@ public class Main {
         }
 
         @GetMapping("/signin")
-        // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String signin() {
-            return "/user/signin";
+        public String signin(User user) {
+            return "user/signin";
+        }
+
+        @PostMapping("/signin")
+        public String personLogin(@Valid User user, BindingResult bindingResult) {
+            // Validation of Decorated PersonForm attributes
+            System.out.println(user.getName());
+            return "user/signin";
         }
 
         @GetMapping("/fortune")
