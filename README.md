@@ -4,6 +4,7 @@
 * Site where users can explore different recipes 
 * Create accounts to track past recipes
 * Find recipes that match all of your cravings and different times of day
+* Meals range from Breakfast to Dinner, including drinks and snacks
 
 
 ## Why did we create FRïÐGÊ?
