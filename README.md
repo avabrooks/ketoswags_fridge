@@ -19,7 +19,7 @@ FRïÐGÊ was created to help those make food at home. This was a project for an
    * Open browser to "localhost:8081" 
 
 
-# Final Review (Part 1) Issues
+# Contributors and Their Roles in the Project 
 
 | Team Member           | Video  |    Issue  | 
 | -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
