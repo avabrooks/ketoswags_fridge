@@ -9,6 +9,13 @@
 ### Why did we create FRïÐGÊ?
 FRïÐGÊ was created to help those make food at home. This was a project for an AP Computer Science A course at Del Norte High School. 
 
+### How to Run
+ * Clone repository 
+ * Run Main.java
+   * path: \ketoswags_fridge\src\main\java\com\example\sping_portfolio\Main.java
+ * Start localhost
+   * Open browser to "localhost:8081" 
+
 
 # Final Review (Part 1) Issues
 
