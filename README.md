@@ -19,14 +19,13 @@ FRïÐGÊ was created to help those make food at home. This was a project for an
    * Open browser to "localhost:8081" 
 
 
-# Contributors and Their Roles in the Project 
-
-| Team Member           | Video  |    Issue  | 
-| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
-| Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/9) 
-| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | 
-| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/8) 
-| Sarah Xie | [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/10) 
+## Contributors and Their Roles in the Project 
+| Team Member           | Issue(s)  | 
+| -------------------------- |-----------------------------| 
+| Ava Brooks               | * [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) <br>  * [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/9) | 
+| Sarah Xie               | * [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) <br> * [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/10) | 
+| Risa Iwazaki                | * [Video](https://youtu.be/cqEPzDWb20A) * [Issue](https://github.com/sarahwxie/ketoswags_spring_portfolio/projects/1#card-69314037)<br> * [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/8) | 
+| Crystal Widjaja                | * [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) <br> * 
 
 
 
