@@ -20,14 +20,22 @@
             <h1>Smoothie Recipes</h1>
             <button>Jump to Recipes!</button>
             <h5>Homemade drinks are very refreshing and enjoyable to drink during any meal! Whether it be drinking with friends or drinking on a Friday night, enjoy these simple recipes to make for fun!</h5>
-            <form action="/drinks" method="GET" id="num">
+            <form action="/drinks" method="GET" id="ing">
                 <div>
                     <label for="greetField">Type the number of ingredients you have!</label>
-                    <input name="padseq" id="greetField">
+                    <input name="ing" id="greetField">
                     <button>Go!</button>
                     <img src="" th:src="@{'/images/smoothie.png'}" style="margin-left:15px; max-width: 25%;">
                 </div>
             </form>
+
+            <div th:if="${ing} >= 3">
+                <h2>You have enough ingredients!</h2>
+            </div>
+
+            <div th:if="${ing} <= 2">
+                <h2>You do not have enough ingredients!</h2>
+            </div>
 
             <h1>Types of Smoothies you can make:</h1>
             <br>
@@ -45,7 +53,7 @@
                                         <p class="card-text"> Strawberry Banana Smoothie</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="btn-group">
-                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.gimmesomeoven.com/strawberry-banana-smoothie-recipe/';" value="View" />
+                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='http://localhost:8081/signin';" value="View" />
                                             </div>
                                             <small class="text-muted">8 mins</small>
                                         </div>
@@ -75,7 +83,7 @@
                                         <p class="card-text">Chocolate Chunk Protein Smoothie</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="btn-group">
-                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.allrecipes.com/recipe/244959/chocolate-banana-peanut-butter-protein-shake/';" value="View" />
+                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='http://localhost:8081/signin';" value="View" />
                                             </div>
                                             <small class="text-muted">13 mins</small>
                                         </div>
@@ -90,7 +98,7 @@
                                         <p class="card-text">Apple Carrot Beet Smoothie</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="btn-group">
-                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://downshiftology.com/recipes/apple-carrot-beet-smoothie/';" value="View" />
+                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='http://localhost:8081/signin';" value="View" />
                                             </div>
                                             <small class="text-muted">20 mins</small>
                                         </div>
@@ -104,20 +112,20 @@
                                         <p class="card-text">Blueberry Smoothie</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <div class="btn-group">
-                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.allrecipes.com/recipe/215184/blueberry-smoothie/';" value="View" />
+                                                <input type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='http://localhost:8081/signin';" value="View" />
                                             </div>
                                             <small class="text-muted">15 mins</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                </tbody>
-            </table>
+                            </tbody>
+                            </table>
 
 
-        </div>
-    </div>
-</div>
+                        </div>
+                    </div>
+                </div>
 
 </body>>
 

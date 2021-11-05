@@ -87,7 +87,8 @@ public class Main {
 
         @GetMapping("/drinks")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-        public String drinks() {
+        public String drinks(@RequestParam(name = "ing", required = false, defaultValue = "0") String ing, Model model) {
+            model.addAttribute("ing", Integer.parseInt(ing));
             return "recipes/drinks";
         }
 
