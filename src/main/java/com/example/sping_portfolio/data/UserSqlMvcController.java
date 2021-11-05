@@ -29,11 +29,6 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         return "/user/signup";
     }
 
-    @PostMapping("/signin")
-    public String personLogin(@Valid User user, BindingResult bindingResult) {
-        String redirectUrl = "http://localhost:8081/profile/1";
-        return "redirect:" + redirectUrl;
-    }
 
     @PostMapping("/signup")
     public String personSave(@Valid User user, BindingResult bindingResult) {
@@ -46,16 +41,6 @@ public class UserSqlMvcController implements WebMvcConfigurer {
         System.out.println(user.getName());
         // Redirect to next step
         return "user/profile";
-    }
-
-    @GetMapping(value="/profile/1")
-    public String getProfileGood(@RequestParam(name = "name", required = false, defaultValue = "1") String name, Model model) {
-        System.out.println("personAdd");
-        User user = repository.get(1);
-        System.out.println(user);
-        model.addAttribute("name", user.getName());
-        model.addAttribute("r", user.getRecipes());
-        return "/user/profile";
     }
 
 
@@ -73,18 +58,23 @@ public class UserSqlMvcController implements WebMvcConfigurer {
     }
 
 
+    @PostMapping("/signin")
+    public String personLogin(@Valid User user, BindingResult bindingResult) {
+        String redirectUrl = "http://localhost:8081/profile/1";
+        return "redirect:" + redirectUrl;
+    }
 
-    /*
-    POST Aa record by Requesting Parameters from URI
+    @GetMapping(value="/profile/1")
+    public String getProfileGood(@RequestParam(name = "name", required = false, defaultValue = "1") String name, Model model) {
+        System.out.println("personAdd");
+        User user = repository.get(1);
+        System.out.println(user);
+        model.addAttribute("name", user.getName());
+        model.addAttribute("r", user.getRecipes());
+        return "/user/profile";
+    }
 
-    @RequestMapping(value = "/api/person/post", method = RequestMethod.POST)
-    public ResponseEntity<Object> postPerson(@RequestParam("password") String password,
-                                             @RequestParam("name") String name) {
 
-        // A person object WITHOUT ID will create a new record
-        User person = new User(password, name);
-        repository.save(person);
-        return new ResponseEntity<>(name +" is created successfully", HttpStatus.CREATED);
-    }*/
+
 
 }
