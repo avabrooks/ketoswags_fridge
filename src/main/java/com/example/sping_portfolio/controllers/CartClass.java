@@ -27,4 +27,8 @@ public class CartClass {
 
         return recipe + ": Needs " + Integer.toString(ingredients) + " ingredients." + foodMessage;
     }
+
+    public String getlink() {
+        return "https://lmgtfy.app/?q=" + recipe;
+    }
 }

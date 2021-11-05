@@ -23,14 +23,16 @@ public class Cart {
         CartClass Ramen = new CartClass("Ramen", 4, true);
         CartClass Hot_Dog = new CartClass("Hot Dog", 3, true);
 
-        List<String> list = new ArrayList<String>();
-        list.add(Pizza.info());
-        list.add(Pancakes.info());
-        list.add(Burger.info());
-        list.add(Steak.info());
-        list.add(Salad.info());
-        list.add(Ramen.info());
-        list.add(Hot_Dog.info());
+
+        // arraylists
+        List<CartClass> list = new ArrayList<CartClass>();
+        list.add(Pizza);
+        list.add(Pancakes);
+        list.add(Burger);
+        list.add(Steak);
+        list.add(Salad);
+        list.add(Ramen);
+        list.add(Hot_Dog);
         System.out.println("ArrayList : " + list);
 
         model.addAttribute("list", list);
