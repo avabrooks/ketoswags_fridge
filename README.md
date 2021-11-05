@@ -21,12 +21,12 @@ FRïÐGÊ was created to help those make food at home. This was a project for an
 
 # Final Review (Part 1) Issues
 
-| Team Member           | Video  |    Issue  |   Comments on Others |   Average Grade   | 
-| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|-------------------------|
-| Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/4) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950577509) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-950582467) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-950715083) | 6/6 |
-| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/3) | [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-951496062) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-951500289) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-951504532) | 5.5 |
-| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/5) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950594882) <br> [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-951120057) <br> [Sarah](https://github.com/avabrooks/ketoswags_fridge/issues/6#issuecomment-951124367) | 5.75 |
-| Sarah Xie | [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/6) | [Crystal](https://github.com/avabrooks/ketoswags_fridge/issues/3#issuecomment-950744670) <br> [Risa](https://github.com/avabrooks/ketoswags_fridge/issues/5#issuecomment-950732994) <br> [Ava](https://github.com/avabrooks/ketoswags_fridge/issues/4#issuecomment-950740834) | 5.75 |
+| Team Member           | Video  |    Issue  | 
+| -------------------------- |-----------------------------|-----------------------------|-----------------------------------|
+| Ava Brooks | [Video](https://www.youtube.com/watch?v=5HzSW7hnmuQ) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/9) 
+| Crystal Widjaja | [Video](https://drive.google.com/file/d/1zvVf4lCkhCTYksnq-muYAMegNjMJNj1_/view?usp=sharing) | 
+| Risa Iwazaki | [Video](https://youtu.be/cqEPzDWb20A) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/8) 
+| Sarah Xie | [Video](https://drive.google.com/file/d/1uu0VoFNnX-6olfb82ZYYftfQex_T4la9/view?usp=sharing) | [Issue](https://github.com/avabrooks/ketoswags_fridge/issues/10) 
 
 
 
