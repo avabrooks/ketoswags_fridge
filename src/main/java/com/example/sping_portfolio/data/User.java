@@ -25,15 +25,21 @@ public class User {
     @Size(min = 2, max = 30, message = "Name (2 to 30 chars)")
     private String name;
 
+    private String recipes;
+
 
     /* Initializer*/
-    public User(String password, String name) {
+    public User(String password, String name, String recipes) {
         this.password = password;
         this.name = name;
+        this.recipes = recipes;
     }
 
     public String getName(){
         return name;
+    }
+    public String getRecipes(){
+        return recipes;
     }
 
 
