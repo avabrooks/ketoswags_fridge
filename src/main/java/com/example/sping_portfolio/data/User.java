@@ -25,7 +25,6 @@ public class User {
     @Size(min = 2, max = 30, message = "Name (2 to 30 chars)")
     private String name;
 
-    @NotEmpty
     private String recipes;
 
 
