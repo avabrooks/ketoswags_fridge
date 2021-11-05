@@ -64,7 +64,7 @@ public class Main {
         @GetMapping("/lunch")
         // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
         public String lunch() {
-            return "lrecipes/unch";
+            return "recipes/lunch";
         }
 
         @GetMapping("/teatime")
