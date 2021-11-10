@@ -1,6 +1,8 @@
 # FRïÐGÊ
 
 [Ava & Risa's journal](https://docs.google.com/document/d/18oonZvdVRPGzeurFKEq9wraFkfDdEqKXo4AWc3CWPxk/edit#heading=h.acord7dg5fto)
+[Sarah & Crystal's journal](https://docs.google.com/document/d/1Wzt-dRrkgP-zqC3KqtCZWDsEPKMfLJBK7cT52iBjI2s/edit?usp=sharing)
+
 
 ## What is FRïÐGÊ?
 * Site where users can explore different recipes 
